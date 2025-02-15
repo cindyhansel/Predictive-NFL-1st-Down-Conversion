@@ -111,7 +111,7 @@ The following shows the running success rate - before the ball is snapped - in t
 
 > ## MatPlotLib Visualization - the field and positions
 
-This is the player and ball positions of a play just prior to the snap in week 3 of the season. Cleveland is lined up in a singleback offensive formation against Pittsburg's 7 defenders in the box. There are two yards to go for a first down. The play is a run to the left, which only results in a gain of 1 yard and thus a failed first down conversion.
+This is the player and ball positions of a play just prior to the snap in week 3 of the season. Cleveland is lined up in a singleback offensive formation against Pittsburgh's 7 defenders in the box. There are two yards to go for a first down. The play is a run to the left, which only results in a gain of 1 yard and thus a failed first down conversion.
 
 ![matplot image](images/matplot-field.jpg)
 
