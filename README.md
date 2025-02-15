@@ -1,5 +1,7 @@
 # Predictive-NFL-1st-Downs
 
+![intro image](images/NFL-first-page.jpg)
+
 [The Data](#The-Data)
 
 - [QuickDBD](#QuickDBD)
@@ -36,13 +38,13 @@
 
 ## The Data
 
-![kaggle data image](images/data-access-commands-kaggle)
+![kaggle data image](images/data-access-commands-kaggle.jpg)
 
-![espn data image](images/data-access-commands-espn)
+![espn data image](images/data-access-commands-espn.jpg)
 
 ## QuickDBD
 
-![quickdbd image](images/quickdbd)
+![quickdbd image](images/QuickDBD-export.png)
 
 
 ## Features
