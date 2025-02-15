@@ -36,8 +36,7 @@
 
 > # The Data
 
-[https://www.kaggle.com/competitions/nfl-big-data-bowl-2024/data](https://www.kaggle.com/competitions/nfl-big-data-bowl-2024/data)
-	
+[https://www.kaggle.com/competitions/nfl-big-data-bowl-2024/data](https://www.kaggle.com/competitions/nfl-big-data-bowl-2024/data)  
  Historical data for the first 9 weeks of NFL 2023 season included the following data sets:<br>
 		games.csv, plays.csv, players.csv, tracking.csv, and tackles.csv
 
@@ -210,7 +209,7 @@ This comparison shows the effects on model accuracy/loss stability based on the 
 
 <img src="images/tracking-comparison.jpg" width="600"/>
 
-> ## Future Exploration
+> # Future Exploration
 
 - Weight the cumulative averages to represent recent trending of performance.
 - Look at the effect of fouls on the plays and modeling.
