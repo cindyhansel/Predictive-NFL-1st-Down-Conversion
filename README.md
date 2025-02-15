@@ -26,7 +26,7 @@
  
 [Increasing the Volume of Data Over 9 Weeks](#Increasing-the-Volume-of-Data-Over-9-Weeks)
 
-[Comparing 3rd Downs Only to All Downs](#Comparing-3rd-Downs-Only-to-All-Downs)
+- [Comparing 3rd Downs Only to All Downs](#Comparing-3rd-Downs-Only-to-All-Downs)
 
 [About Tracking Data](#About-Tracking-Data)
 
