@@ -36,9 +36,17 @@
 
 > ## The Data
 
-![kaggle data image](images/data-access-commands-kaggle.jpg)
+[https://www.kaggle.com/competitions/nfl-big-data-bowl-2024/data](https://www.kaggle.com/competitions/nfl-big-data-bowl-2024/data)
+	
+ Historical data for the first 9 weeks of NFL 2023 season included the following data sets:<br>
+		games.csv, plays.csv, players.csv, tracking.csv, and tackles.csv
 
-![espn data image](images/data-access-commands-espn.jpg)
+<img src="images/data-access-commands-kaggle.jpg" width="600"/>
+
+[https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams](https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams)<br>
+	Used for visualization
+
+<img src="images/data-access-commands-espn.jpg" width="600"/>
 
 > ## QuickDBD
 
