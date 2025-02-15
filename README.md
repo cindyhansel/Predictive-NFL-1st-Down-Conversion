@@ -20,13 +20,13 @@
 
 - [Random Forest - Feature Importance](#Random-Forest---Feature-Importance)
  
-- [KNN](#KNN)
+- [KNN Results](#KNN-Results)
  
 - [Deep Model - Keras/TensorFlow](#Deep-Model---Keras/TensorFlow)
  
 [Increasing the Volume of Data Over 9 Weeks](#Increasing-the-Volume-of-Data-Over-9-Weeks)
 
-[Comparing 3rd Downs Only to All Downs](#Comparing-3rd-Downs-Only-to-All-Down)
+[Comparing 3rd Downs Only to All Downs](#Comparing-3rd-Downs-Only-to-All-Downs)
 
 [About Tracking Data](#About-Tracking-Data)
 
@@ -168,18 +168,58 @@ However, since we do not know the calculations used to attain this data, we cann
   <img src="images/RF_with_adding_magic_table.png" width="500" />
 </div>
 
-> ## KNN
+> ## KNN Results
 
 <img src="images/knn-results.jpg" width="700"/>
 
 > ## Deep Model - Keras/TensorFlow
 
-> ## Increasing the Volume of Data Over 9 Weeks
+<img src="images/deep-model.jpg" width="600"/>
 
-> ## Comparing 3rd Downs Only to All Down
+> # Increasing the Volume of Data Over 9 Weeks
 
-> ## About Tracking Data
+Shown below, as data volume increases (shown in the blue bars) the accuracy of the model stabilizes and shows an upward trend. The data loss stabilizes and shows a decreasing trend.
 
-> ## Comparing KNN Models With/Without Tracking
+<div style="display: flex;">
+  <img src="images/all_plays_time_chart.png" width="400" style="margin-right: 40px;" />
+  <img src="images/all_plays_time_table.png" width="350" />
+</div>
+
+> ## Comparing 3rd Downs Only to All Downs
+
+This comparison shows the effects on model accuracy/loss stability based on the volume of data. The data used for the model on the left is a portion (< ½) of the data used on the right. Stability is significantly improved with greater volume.
+
+<div style="display: flex;">
+  <img src="images/third_plays_time_chart.png" width="400" style="margin-right: 40px;" />
+  <img src="images/all_plays_time_chart.png" width="400" />
+</div>
+
+> # About Tracking Data
+
+#### The following shows, graphically, how the data is laid out in the original tracking data sets
+
+<img src="images/tracking-field.jpg" width="700"/>
+
+#### And here are examples of how the csv is shaped before and after preprocessing
+
+<img src="images/tracking-data1.jpg" width="700"/>
+
+<img src="images/tracking-data2.jpg" width="750"/>
+
+> #### Comparing KNN Models With/Without Tracking
+
+<img src="images/tracking-comparison.jpg" width="600"/>
 
 > ## Future Exploration
+
+- Weight the cumulative averages to represent recent trending of performance.
+- Look at the effect of fouls on the plays and modeling.
+- Consider home field advantage.
+- Bring in other data/statistics to help establish the predictability of individual players.
+- Work with tools that can optimize the deep model.  
+
+- There are many aspects of the tracking data that would be interesting to explore, including:
+	- The movement of the offense/defense
+	- The distance from the line of scrimmage the rest of the defense is positioned
+	- The speed of the runner/receiver as well as the defenders
+	- Potential weak spots in the defensive/offensive lines
