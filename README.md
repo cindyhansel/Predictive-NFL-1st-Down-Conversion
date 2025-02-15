@@ -197,7 +197,6 @@ This comparison shows the effects on model accuracy/loss stability based on the 
 
 #### The following shows, graphically, how the data is laid out in the original tracking data sets
 
-<img src="images/tracking-field.jpg" width="700"/>
 
 #### And here are examples of how the csv is shaped before and after preprocessing
 
